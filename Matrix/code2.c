@@ -115,7 +115,7 @@ int main(){
     printf("\nMultiplying Matrix 2 and 1\n");
     multiplyMatrices(m2R, m2C, m1R, m1C, m2, m1);
     printf("\nTransposing Matrix 1\n");
-    transposeMatrices(m1R, m1R, m1);
+    transposeMatrices(m1R, m1C, m1);
     printf("\nTransposing Matrix 2\n");
     transposeMatrices(m2R, m2C, m2);
 
